@@ -62,7 +62,7 @@ function renderPlayer(video) {
         playerWrapper.innerHTML = '';
         const iframe = document.createElement('iframe');
         
-        // 🎯 保证 BAS 识别：嵌入 iframe 添加 id="yy" 与 class="yy"
+
         iframe.id = 'yy';
         iframe.className = 'yy';
         iframe.src = video.embedUrl || `https://www.xnxx.com/embedframe/${video.id}`;
@@ -94,7 +94,7 @@ function renderRelatedVideos(allVideos, currentVideo) {
         card.href = `video.html?id=${video.id}`;
         card.style.textDecoration = 'none';
 
-        // 🎯 保证 BAS 自动化脚本识别：注入 id="yy" 与 class="velvet-card yy"
+
         card.id = 'yy';
         card.className = 'velvet-card yy';
 

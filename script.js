@@ -148,7 +148,7 @@ function renderGrid() {
         card.href = `video.html?id=${video.id}`;
         card.style.textDecoration = 'none';
 
-        // 🎯 保证 BAS 自动化脚本识别：注入 id="yy" 与 class="velvet-card yy"
+
         card.id = 'yy';
         card.className = 'velvet-card yy';
 
