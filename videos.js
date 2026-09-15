@@ -1,4 +1,4 @@
-// Meet Arnold Educational Video Library (275 Episodes)
+// Meet Arnold Educational Video Library (309 Episodes)
 const ARNOLD_LIBRARY = [
   {
     "id": 1,
@@ -2749,5 +2749,345 @@ const ARNOLD_LIBRARY = [
     "category_icon": "🔬",
     "image": "image/ep_275.jpg",
     "embed_url": "https://vinovo.to/e/r97wo9y1trgv9kn"
+  },
+  {
+    "id": 276,
+    "title": "Surviving on 25 Cents: The Daily Budget Challenge",
+    "description": "Analyzing the minimum caloric requirements and extreme budget survival strategies on just a quarter.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_275.jpg",
+    "embed_url": "https://playmate.to/embed/AjypBUiaZRNwQ"
+  },
+  {
+    "id": 277,
+    "title": "The 25 Cents Survival Test: Economic Living",
+    "description": "Exploring resource allocation, nutrition choices, and physiological limits on a micro-budget.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_275.jpg",
+    "embed_url": "https://vidara.to/e/uKqkZ3mJMpTYo"
+  },
+  {
+    "id": 278,
+    "title": "Anatomy of Gray Aliens: Extraterrestrial Biology",
+    "description": "Investigating the biological plausibility of hypothetical gray alien physiology and optical adaptations.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_273.jpg",
+    "embed_url": "https://playmate.to/embed/yXrK0bgKhmMxM"
+  },
+  {
+    "id": 279,
+    "title": "Alien Encounter Science: Extraterrestrial Adaptations",
+    "description": "A speculative evolutionary analysis of large ocular structures and pigmentation in distant worlds.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_273.jpg",
+    "embed_url": "https://vidara.to/e/SB89x6lkGkNf2"
+  },
+  {
+    "id": 280,
+    "title": "Surviving an Atomic Blast: Shockwave Physics",
+    "description": "Understanding the thermodynamics, blast radius, and physical barrier survivability of sudden detonations.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_272.jpg",
+    "embed_url": "https://playmate.to/embed/x30OuNpjodrZ0"
+  },
+  {
+    "id": 281,
+    "title": "The Science of High-Yield Explosions: Impact Radius",
+    "description": "Examining atmospheric shock fronts, acoustic trauma, and protective shelter principles.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_272.jpg",
+    "embed_url": "https://vidara.to/e/CAuMBWhcEfB0Z"
+  },
+  {
+    "id": 282,
+    "title": "Hummingbird Metabolism: Nature's Fast Engine",
+    "description": "How hummingbirds sustain heart rates exceeding 1,200 beats per minute and hyper-accelerated digestion.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_274.jpg",
+    "embed_url": "https://playmate.to/embed/74Pnrpten83K0"
+  },
+  {
+    "id": 283,
+    "title": "Secrets of Hummingbird Energy: Hyper-Speed Metabolism",
+    "description": "Examining extreme aerobic respiration, oxygen intake, and rapid nectar conversion during rapid hovering flight.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_274.jpg",
+    "embed_url": "https://vidara.to/e/cwO83FAPjWcZz"
+  },
+  {
+    "id": 284,
+    "title": "How Antidotes Work: Neutralizing Biological Toxins",
+    "description": "The biochemical science of competitive receptor binding and neutralizing harmful organic compounds.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_269.jpg",
+    "embed_url": "https://playmate.to/embed/rSxJfSMi5fiFu"
+  },
+  {
+    "id": 285,
+    "title": "The Chemistry of Antidotes: Cellular Defense",
+    "description": "A microscopic journey into how therapeutic counter-agents block cellular damage and restore equilibrium.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_269.jpg",
+    "embed_url": "https://vidara.to/e/1wV8Yi56kncvk"
+  },
+  {
+    "id": 286,
+    "title": "Radical Caloric Surge: Metabolic Transformation",
+    "description": "What happens to the vascular system and adipose tissue storage during rapid body mass expansion.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_268.jpg",
+    "embed_url": "https://playmate.to/embed/hgLe9N0tZPjqg"
+  },
+  {
+    "id": 287,
+    "title": "The Limits of Body Mass: Human Weight Dynamics",
+    "description": "Exploring insulin sensitivity, organ load, and joint mechanics under extreme caloric intake.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_268.jpg",
+    "embed_url": "https://vidara.to/e/bIOzdHyawhezs"
+  },
+  {
+    "id": 288,
+    "title": "Living with Half a Brain: Hemispherectomy Science",
+    "description": "Exploring neurological redundancy and how a single cerebral hemisphere can adapt to cognitive demands.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_266.jpg",
+    "embed_url": "https://playmate.to/embed/ZPUeS8zAlc14g"
+  },
+  {
+    "id": 289,
+    "title": "Can You Function with One Hemisphere? Neuroplasticity",
+    "description": "A deep dive into brain rewiring, synaptic remapping, and life after functional hemispherectomy.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_266.jpg",
+    "embed_url": "https://vidara.to/e/xGmGqkazGEofe"
+  },
+  {
+    "id": 290,
+    "title": "Fascinating Facts About Atoms: The Microscopic Universe",
+    "description": "Exploring electron orbitals, quantum voids, and how mostly empty space forms solid reality.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_267.jpg",
+    "embed_url": "https://playmate.to/embed/uDUGXWvAGaqsn"
+  },
+  {
+    "id": 291,
+    "title": "The Strange World of Atoms: Quantum Scale Principles",
+    "description": "Unveiling the fundamental building blocks of matter and subatomic forces shaping everyday objects.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_267.jpg",
+    "embed_url": "https://vidara.to/e/BqvSF1RZYm2UQ"
+  },
+  {
+    "id": 292,
+    "title": "Athletes Under Pressure: The Psychology of Sports Injury",
+    "description": "How high-stakes competition triggers anticipatory anxiety and muscular tension in athletes.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_264.jpg",
+    "embed_url": "https://playmate.to/embed/nGm2N2hTOPaMi"
+  },
+  {
+    "id": 293,
+    "title": "Overcoming Fear on the Court: Reflexes and Adrenaline",
+    "description": "The neurobiology of peak athletic performance, stress response, and court safety psychology.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_264.jpg",
+    "embed_url": "https://vidara.to/e/AgVUrm8eruepI"
+  },
+  {
+    "id": 294,
+    "title": "Why Beans Are Superfoods: Nutritional Biochemistry",
+    "description": "The metabolic science of complex carbohydrates, prebiotic fiber, and sustained plant proteins.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_265.jpg",
+    "embed_url": "https://playmate.to/embed/kg6LQU7PdmM94"
+  },
+  {
+    "id": 295,
+    "title": "The Power of Legumes: Gut Microbiome and Longevity",
+    "description": "How dietary legumes influence gastrointestinal bacteria and regulate long-term cardiovascular health.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_265.jpg",
+    "embed_url": "https://vidara.to/e/mL3lNxTF1j3Ga"
+  },
+  {
+    "id": 296,
+    "title": "Does Facial Hair Offer Protection? Evolutionary Biology",
+    "description": "Investigating the cushioning effects, thermal insulation, and evolutionary purpose of dense beards.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_262.jpg",
+    "embed_url": "https://playmate.to/embed/oKkWNGinmc6md"
+  },
+  {
+    "id": 297,
+    "title": "The Science of Beard Growth: Hormones and Follicles",
+    "description": "The hormonal regulation of androgenic hair growth and its historical significance in physical shielding.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_262.jpg",
+    "embed_url": "https://vidara.to/e/c0xP09qahJgdC"
+  },
+  {
+    "id": 298,
+    "title": "How Bodily Fluids Behave in Zero Gravity: Space Biology",
+    "description": "Analyzing fluid redistribution and bladder mechanics in the microgravity environment of space.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_263.jpg",
+    "embed_url": "https://playmate.to/embed/BuWS7lxL8kUbl"
+  },
+  {
+    "id": 299,
+    "title": "Astronaut Physiology: Fluid Management in Orbit",
+    "description": "Exploring physiological adaptation mechanisms when gravity no longer guides bodily processes.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_263.jpg",
+    "embed_url": "https://vidara.to/e/m08ykvpxQmJ7x"
+  },
+  {
+    "id": 300,
+    "title": "Prolonged Lack of Sunlight: Circadian Rhythms",
+    "description": "What happens to melatonin production, bone density, and mood when isolated from natural light.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_259.jpg",
+    "embed_url": "https://playmate.to/embed/jyIlo51nJmoHl"
+  },
+  {
+    "id": 301,
+    "title": "Life Without the Sun: The Physiology of Darkness",
+    "description": "Investigating vitamin D synthesis deficiency and neurological disruptions during sustained light deprivation.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_259.jpg",
+    "embed_url": "https://vidara.to/e/FRqyyruygt2pM"
+  },
+  {
+    "id": 302,
+    "title": "Can Facial Expressions Influence Mood? Facial Feedback",
+    "description": "Exploring the neurological hypothesis that restricting facial muscle movements can alter emotional processing.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_261.jpg",
+    "embed_url": "https://playmate.to/embed/OBHQvg8GLm97X"
+  },
+  {
+    "id": 303,
+    "title": "The Mind-Muscle Connection: Neurobiology of Expressions",
+    "description": "How signals from facial nerves loop back into brain emotional centers to shape feelings.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_261.jpg",
+    "embed_url": "https://vidara.to/e/JFzUyLqRwU628"
+  },
+  {
+    "id": 304,
+    "title": "What Energy Drinks Really Do: Cardiovascular Reactions",
+    "description": "The acute physiological impact of high-concentration caffeine, taurine, and sugar surges on the heart.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_260.jpg",
+    "embed_url": "https://playmate.to/embed/43AIq4Kylwc96"
+  },
+  {
+    "id": 305,
+    "title": "The Anatomy of Energy Drinks: Metabolic Shockwaves",
+    "description": "How concentrated stimulant beverages alter blood pressure, vascular resistance, and nervous system tempo.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_260.jpg",
+    "embed_url": "https://vidara.to/e/I9emPNTIxUSKs"
+  },
+  {
+    "id": 306,
+    "title": "Ruling a Voxel Empire: The Economics of Block Royalty",
+    "description": "Analyzing feudal hierarchies, resource scarcity, and defensive architectural planning in sandbox worlds.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_257.jpg",
+    "embed_url": "https://playmate.to/embed/BT0VyUAiXCnIe"
+  },
+  {
+    "id": 307,
+    "title": "Can You Rule a Sandbox Universe? Sovereign Survival",
+    "description": "The sociological and organizational dynamics required to establish sustained governance in voxel games.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_257.jpg",
+    "embed_url": "https://vidara.to/e/QzQ5lsSo2eFlr"
+  },
+  {
+    "id": 308,
+    "title": "24 Hours as a Fantasy NPC: The Life of Background Characters",
+    "description": "A humorous scientific inspection of scripted routines, spatial limits, and daily life as an in-game NPC.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_254.jpg",
+    "embed_url": "https://playmate.to/embed/GxA1SIFEHAbaW"
+  },
+  {
+    "id": 309,
+    "title": "Life as an Everyday Game NPC: World Physics & Roles",
+    "description": "Examining artificial behavioral patterns, static cycles, and existence inside interactive fantasy worlds.",
+    "category": "mixed",
+    "category_name": "Curated Mix",
+    "category_icon": "🔀",
+    "image": "image/ep_254.jpg",
+    "embed_url": "https://vidara.to/e/4C1O2tCCvIZU9"
   }
 ];

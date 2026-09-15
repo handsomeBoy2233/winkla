@@ -19,6 +19,9 @@
   const searchInput = document.getElementById("searchInput");
   const searchClear = document.getElementById("searchClear");
   const categoryTabs = document.querySelectorAll(".cat-tab");
+  const categoryTabsContainer = document.getElementById("categoryTabs");
+  const tabsScrollLeft = document.getElementById("tabsScrollLeft");
+  const tabsScrollRight = document.getElementById("tabsScrollRight");
   const resultsCount = document.getElementById("resultsCount");
   const totalMatches = document.getElementById("totalMatches");
   const btnRandomTop = document.getElementById("btnRandomTop");
@@ -216,8 +219,48 @@
     }
   }
 
+  function updateCategoryScrollButtons() {
+    if (!categoryTabsContainer) return;
+    const canScrollLeft = categoryTabsContainer.scrollLeft > 4;
+    const canScrollRight = categoryTabsContainer.scrollLeft < (categoryTabsContainer.scrollWidth - categoryTabsContainer.clientWidth - 4);
+    if (tabsScrollLeft) tabsScrollLeft.disabled = !canScrollLeft;
+    if (tabsScrollRight) tabsScrollRight.disabled = !canScrollRight;
+  }
+
   function bindEvents() {
-    // Category tabs
+    // Category tabs slider scroll buttons
+    if (categoryTabsContainer) {
+      categoryTabsContainer.addEventListener("scroll", updateCategoryScrollButtons, { passive: true });
+      window.addEventListener("resize", updateCategoryScrollButtons, { passive: true });
+
+      // Horizontal mouse wheel support over category tabs
+      categoryTabsContainer.addEventListener("wheel", (e) => {
+        if (e.deltaY !== 0) {
+          e.preventDefault();
+          categoryTabsContainer.scrollLeft += e.deltaY;
+          updateCategoryScrollButtons();
+        }
+      }, { passive: false });
+
+      // Initial check
+      setTimeout(updateCategoryScrollButtons, 150);
+    }
+
+    if (tabsScrollLeft && categoryTabsContainer) {
+      tabsScrollLeft.addEventListener("click", () => {
+        categoryTabsContainer.scrollBy({ left: -240, behavior: "smooth" });
+        setTimeout(updateCategoryScrollButtons, 350);
+      });
+    }
+
+    if (tabsScrollRight && categoryTabsContainer) {
+      tabsScrollRight.addEventListener("click", () => {
+        categoryTabsContainer.scrollBy({ left: 240, behavior: "smooth" });
+        setTimeout(updateCategoryScrollButtons, 350);
+      });
+    }
+
+    // Category tabs click
     categoryTabs.forEach(tab => {
       tab.addEventListener("click", () => {
         categoryTabs.forEach(t => t.classList.remove("active"));
@@ -225,6 +268,10 @@
         currentCategory = tab.dataset.category;
         currentPage = 1;
         applyFilters();
+
+        // Smoothly bring clicked tab into view
+        tab.scrollIntoView({ behavior: "smooth", inline: "nearest", block: "nearest" });
+        setTimeout(updateCategoryScrollButtons, 350);
       });
     });
 

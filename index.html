@@ -33,7 +33,7 @@
     <section class="hero-wrapper">
       <div class="hero-box">
         <div class="hero-pill">
-          <span>✨ 275 Animated Science Topics Documented</span>
+          <span>✨ 309 Curated Animated Science Topics Documented</span>
         </div>
         <h1 class="hero-heading">Curious Science, <span>Illustrated.</span></h1>
         <p class="hero-sub">
@@ -52,36 +52,44 @@
     <!-- Controls & Categories -->
     <section class="controls-wrapper" id="catalog">
       <div class="controls-bar">
-        <!-- Category Filter Tabs -->
-        <div class="category-tabs" id="categoryTabs">
-          <button class="cat-tab active" data-category="all">
-            <span>🌟 All Topics</span>
-            <span class="cat-pill-count">275</span>
-          </button>
-          <button class="cat-tab" data-category="biology">
-            <span>🧬 Human Biology</span>
-            <span class="cat-pill-count">80</span>
-          </button>
-          <button class="cat-tab" data-category="science">
-            <span>🔬 Science & Physics</span>
-            <span class="cat-pill-count">61</span>
-          </button>
-          <button class="cat-tab" data-category="nature">
-            <span>🌿 Wildlife & Nature</span>
-            <span class="cat-pill-count">45</span>
-          </button>
-          <button class="cat-tab" data-category="survival">
-            <span>🧭 Extreme Environments</span>
-            <span class="cat-pill-count">22</span>
-          </button>
-          <button class="cat-tab" data-category="pop_culture">
-            <span>🎮 Pop Culture & Tech</span>
-            <span class="cat-pill-count">16</span>
-          </button>
+        <!-- Category Filter Tabs with Slider Controls -->
+        <div class="category-tabs-wrapper">
+          <button class="tabs-scroll-btn left" id="tabsScrollLeft" title="Scroll left" aria-label="Scroll left">‹</button>
+          <div class="category-tabs" id="categoryTabs">
+            <button class="cat-tab active" data-category="all">
+              <span>🌟 All Topics</span>
+              <span class="cat-pill-count">309</span>
+            </button>
+            <button class="cat-tab" data-category="biology">
+              <span>🧬 Human Biology</span>
+              <span class="cat-pill-count">80</span>
+            </button>
+            <button class="cat-tab" data-category="science">
+              <span>🔬 Science & Physics</span>
+              <span class="cat-pill-count">61</span>
+            </button>
+            <button class="cat-tab" data-category="nature">
+              <span>🌿 Wildlife & Nature</span>
+              <span class="cat-pill-count">45</span>
+            </button>
+            <button class="cat-tab" data-category="survival">
+              <span>🧭 Extreme Environments</span>
+              <span class="cat-pill-count">22</span>
+            </button>
+            <button class="cat-tab" data-category="pop_culture">
+              <span>🎮 Pop Culture & Tech</span>
+              <span class="cat-pill-count">16</span>
+            </button>
+            <button class="cat-tab" data-category="mixed">
+              <span>🔀 Curated Mix</span>
+              <span class="cat-pill-count">34</span>
+            </button>
+          </div>
+          <button class="tabs-scroll-btn right" id="tabsScrollRight" title="Scroll right" aria-label="Scroll right">›</button>
         </div>
 
         <div class="results-meta">
-          Showing <span id="resultsCount">12</span> of <span id="totalMatches">275</span> episodes
+          Showing <span id="resultsCount">12</span> of <span id="totalMatches">309</span> episodes
         </div>
       </div>
     </section>
